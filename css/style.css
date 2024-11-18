@@ -1,0 +1,149 @@
+/*geral*/
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.390625vw);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+/*topo*/
+header {
+    background-color: #3B8686;
+    padding: 30px 10vw 30px 10vw;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin: 5px 15px 0 15px;
+}
+.menu-atual {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2px 15px 2px 15px;
+    border-radius: 15px;
+}
+/*meio*/
+.banner {
+    padding: 20vw 10vw 5vw 10vw;
+    background: linear-gradient(rgba(121,189,154,0.2),rgba(121,189,154,0.2)), url(../images/banner-topo.png) no-repeat center center;
+    background-size: cover;
+}
+.banner h2 {
+    font-size: 3rem;
+    color: white;
+    width: 40%;
+    background-color: rgba(59, 134, 134, 0.5);
+    padding: 20px 20px 20px 20px;
+}
+.servicos {
+    padding: 3vw 10vw 3vw 10vw;
+}
+.servicos p {
+    color: #747474;
+}
+.servicos ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.servicos ul li {
+    width: 25%;
+}
+.servicos ul li span {
+    font-size: 3rem;
+    color: #3B8686;
+}
+.servicos ul li h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+.servicos ul li a {
+    background-color: #3B8686;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin: 20px 0 0 ;
+}
+.meio {
+    padding: 10vw 0vw 5vw 10vw;
+    background: linear-gradient(rgba(121,189,154,0.5),rgba(121,189,154,0.5)), url(../images/back-numeros.png) no-repeat center center;
+    background-size: cover;
+
+}
+.meio ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.meio ul li {
+    width: 25%;
+}
+.meio ul li span {
+    color: white;
+    font-size: 3.5rem;
+}
+.meio ul li {
+    color: white;
+    font-size: 1.5rem;
+}
+.meio p {
+    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+}
+.possibilidades div h3 {
+    color: #0B486B;
+    font-size: 1.2rem;
+}
+.possibilidades div p {
+    color: #747474;
+    width: 70%;
+    margin: 30px 0 0 0;
+}
+.possibilidades {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 15vw 5vw 15vw;
+}
+.possibilidades div p a {
+    background-color: #0B486B;
+    padding: 10px 30px 10px 20px;
+    display: inline-block;
+    margin: 0 20px 0 0 ;
+}
+
+/*footer*/
+
+footer {
+    background-color: #3B8686;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw 5vw 10vw;
+}
+.div1 ul {
+    display: flex;
+}
+footer .div1 span {
+    font-size: 2rem;
+    padding: 0 15px 25px 0;
+}
+footer .div2 h4 {
+    font-weight: 600;
+}
+.div2 p {
+    margin: 8px 0 8px 0;
+}
+footer ul {
+    text-align: right;
+}
+footer li {
+    padding: 0 0 1.5vw 0;
+}
+
+
+
